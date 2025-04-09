@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#2BFFFFFF" /> <!-- Semi-transparent black for shadow -->
+            <corners android:radius="48dp" /> <!-- Rounded corners -->
+            <padding
+                android:left="0dp"
+                android:top="2dp"
+                android:right="0dp"
+                android:bottom="0dp"
+                /> <!-- Padding to push shadow inward -->
+        </shape>
+    </item>
+    <gradient
+        android:startColor="#205C17"
+        android:endColor="#44C230"
+        android:angle="360"
+        android:type="linear"
+
+        />
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#55000000" /> <!-- Semi-transparent black for shadow -->
+            <corners android:radius="48dp" /> <!-- Rounded corners -->
+            <padding
+                android:left="2dp"
+                android:top="2dp"
+                android:right="2dp"
+                android:bottom="8dp" /> <!-- Padding to push shadow inward -->
+        </shape>
+    </item>
+</shape>
